@@ -456,6 +456,84 @@
     width: 100%;
     text-align: center;
   }
+  .topSideBarSearch.mobileBlock {
+    display: none;
+  }
+  .topSideBarSearch.mobileBlock .customSearchBlock {
+    border: none;
+  }
+  .innerProductContent {
+    margin-top: 0;
+  }
+  .innerBlockMainDescription .descriptionItem .descriptionTitle {
+    margin: 0 -12px;
+    width: calc(100% + 24px);
+  }
+  .greySection {
+    margin: 0 -27px;
+    width: calc(100% + 54px);
+  }
+  .stepsWrapper {
+    text-align: center;
+  }
+  .stepsWrapper .stepItem {
+    width: 24%;
+    vertical-align: top;
+    float: none;
+    margin: 0 4% 30px;
+    zoom: 0.6;
+    display: inline-block;
+  }
+  .stepsWrapper .stepItem .stepText {
+    font-size: 12px;
+  }
+  .linksBlock {
+    padding-bottom: 50px;
+  }
+  .linksBlock .halfBlock {
+    padding: 0 !important;
+  }
+  .linksBlock .halfBlock a {
+    display: block;
+    position: relative;
+    float: left;
+    width: 100%;
+    text-align: center;
+  }
+  .linksBlock .halfBlock a span {
+    position: absolute;
+    float: none !important;
+    top: 100%;
+    width: 100%;
+    margin: 10px 0 0 0  !important;
+    text-align: center;
+    left: 0;
+    padding: 0 10px;
+    font-size: 12px !important;
+    line-height: 14px !important;
+  }
+  .linksBlock .halfBlock a img {
+    display: inline-block;
+    float: none !important;
+  }
+  .imageList .imageColumn {
+    width: 100%;
+  }
+  .imageList .imageColumn .columnItem {
+    padding: 0 5px 0 55px !important;
+    text-align: left !important;
+  }
+  .imageList .imageColumn .columnItem img {
+    right: auto;
+    left: 0;
+  }
+  .stepsWrapper.stepsFour {
+    padding: 0;
+  }
+  .stepsWrapper.stepsFour .stepItem {
+    width: 50%;
+    margin: 0 0 15px 0;
+  }
 }
 @media screen and (max-width: 740px) {
   .categoriesHoverList .categoryHoverItem {
@@ -585,11 +663,5 @@
   }
   .wrapper .header .header-menu__burger.active span:after {
     transform: rotate(-45deg);
-  }
-  .topSideBarSearch.mobileBlock {
-    display: none;
-  }
-  .topSideBarSearch.mobileBlock .customSearchBlock {
-    border: none;
   }
 }
