@@ -1,0 +1,435 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,textarea,p,blockquote,th,td{margin:0; padding:0;}
+html{height:100%;}
+body{font-size:12px; font-family: 'Roboto', sans-serif; font-weight: 400; color:black; line-height:1.2;}
+img{border:none;}
+a,.link{outline:none; color:#4466be; text-decoration: underline;}
+a:hover, .link:hover{color:#00307f;}
+a:focus, .link:focus{outline:none; -moz-outline-style:none;}
+
+ul li{list-style: none;}
+fieldset{border:none;}
+.fl{float:left;}
+.fr{float:right !important;}
+.max{float:right !important;}
+.clear{clear:both; overflow:hidden; font-size:0; height:0;}
+.clearfix, .row{zoom:1;}
+.clearfix:after, .row:after{content:" "; display:block; clear:both; height: 10px;}
+.no_bord{border:none !important;}
+h1{font-size:18px;}
+h2{font-size:16px;}
+h3{font-size:14px;}
+h4{font-size:12px;}
+a span{cursor:pointer;}
+textarea,.inp_text{font:12px tahoma; color:black;}
+.wrapper {width: 993px; margin: 0 auto;}
+/*Header*/
+.header .header__top {background: url(../header_search.jpg) no-repeat; width: 993px; height: 85px;}
+.header .header__menu {background-color: #f07c00; padding: 13px 5px;}
+.header .header__menu ul {
+    overflow: hidden;
+    display: table;
+    width: 100%;
+}
+.header .header__menu ul li {
+    text-align: center;
+    display: table-cell;
+    border-right: 1px solid #f6b36b;
+    height: 36px;
+    vertical-align: middle;
+}
+.header .header__menu ul li:last-child {border-right: 0px;}
+.header .header__menu ul li a {
+
+    font-weight: normal; font-size: 12px; color: #fff; letter-spacing: 0.1pt; line-height: 14px; text-decoration: none;
+}
+
+.wrap_content {padding: 19px; margin-bottom: 50px; position: relative;}
+.wrap_content:after {clear: both; height: 1px; width: 100%; display: block; content: ' ';}
+.sidebar {float: left; width: 261px; margin-right: 12px;}
+.sidebar .block {border: 1px solid #e8e8e8; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; margin-bottom: 20px;}
+.block.interactive { text-align: center;}
+.sidebar .product {position: relative; text-align: center; padding: 0px 25px 25px 25px;}
+.product img {margin-top: -7px;}
+.product .product__button {background: #f07c00; color: #fff;-webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; text-align: center; display: block; font-size: 18px; font-weight: 400; text-decoration: none; height: 46px; line-height: 46px; margin-top: 14px;}
+.product .product__button:hover {color: #fff; opacity: 0.8;}
+
+.interactive {padding: 21px;}
+.interactive ul {overflow: hidden; margin-top: 13px; display: inline-block;}
+.interactive ul li {float: left; margin-right: 12px;}
+.interactive ul li:last-child {margin-right: 0px;}
+.interactive ul li a {display: block;}
+.interactive__title {font-size: 18px; color: #4a4a4a; letter-spacing: 0.6px;}
+
+.marks {padding-bottom: 15px;}
+.marks__title {padding: 17px;font-size: 12px; font-weight: 400; color: #4a4a4a; line-height: 16px; background-color: #f3f3f3; text-transform: uppercase; text-align: center; letter-spacing: 0.3pt;}
+.marks ul {overflow: hidden;}
+.marks ul li { display: table; float: left; width: 128px; height: 66px; text-align: center;}
+.marks ul li span {display: table-cell; vertical-align: middle;}
+
+.content {float: left; width: 678px;}
+.category{margin-top: 25px; padding-left: 18px;}
+.category ul {overflow: hidden;}
+.category ul li {float: left; width: 130px; margin-right: 45px; margin-bottom:30px;}
+.category ul li .category__image {text-align: center; height: 60px;}
+.category ul li:nth-child(4n) {margin-right: 0px;}
+.category ul li ul {margin-top: 16px;}
+.category ul li ul li {float: none; width: auto; margin-right: 0px; margin-bottom:9px;}
+.category ul li ul li:first-child {margin-bottom: 14px; line-height: inherit;}
+.category ul li ul li:first-child a {font-weight: 700; color: #4a4a4a; text-transform: uppercase; letter-spacing: 0.4pt;}
+.category ul li ul li a {font-size: 14px; color: #777777; font-weight: 500; text-decoration: none; letter-spacing: 0.3pt;}
+.category ul li ul li a:hover {text-decoration: underline;}
+.category ul li .link {color: #898989; font-weight: 400; font-style: italic; font-size: 13px; display: block; margin-top: 4px;}
+.category__button {text-align: center; margin-top: 50px;}
+.category__button a {background: #f07c00; color: #fff;-webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; text-align: center; display: inline-block; padding: 0px 40px; text-transform: uppercase; font-size: 18px; font-weight: 500; text-decoration: none; height: 46px; line-height: 46px; margin-top: 14px;}
+
+.footer {background-color: #eae9e9; position: relative; height: 79px; padding: 0px 23px 0px 19px; }
+.footer:after {display: block; height: 1px; width: 100%; clear: both; content: ' ';}
+.footer ul.links {overflow: hidden; float: left; margin-top: 35px;}
+.footer ul.links li {float: left; margin-right: 15px;}
+.footer ul.links li a {font-size: 12px; color: #3c3c3c; letter-spacing: 0.2pt;}
+.footer .pays {float: right; margin-top: 31px;}
+
+.categoriesHoverList {
+    float: left;
+    width: 100%;
+    margin-top: 15px;
+}
+.categoriesHoverList .categoryHoverItem {
+    height: 245px;
+    float: left;
+    width: 25%;
+    outline: none;
+    padding: 0 25px;
+    position: relative;
+    margin: 0 0 15px 0;
+}
+.categoriesHoverList .categoryHoverItem > div {
+    width: 100%;
+    float: left;
+}
+.categoriesHoverList .categoryHoverItem .categoryHoverImage {
+    height: 80px;
+    position: relative;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+.categoriesHoverList .categoryHoverItem .categoryHoverImage img {
+    position: absolute;
+    max-width: 90%;
+    max-height: 70px;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+.categoriesHoverList .categoryHoverItem .categoryHoverTitle {
+    font: 14px/18px 'Roboto';
+    font-weight: bold;
+    position: relative;
+    height: 36px;
+    cursor: pointer;
+    color: #4a4a4a;
+    text-decoration: none;
+}
+.categoriesHoverList .categoryHoverItem .categoryHoverList {
+    height: 115px;
+    overflow: hidden;
+}
+.categoriesHoverList .categoryHoverItem .categoryHoverList ul {
+    float: left;
+    width: 100%;
+}
+.categoriesHoverList .categoryHoverItem .categoryHoverList ul li {
+    margin-bottom: 6px;
+    float: left;
+    width: 100%;
+    text-decoration: none;
+    color: #777777;
+    font: 14px/16px 'Roboto';
+}
+.categoriesHoverList .categoryHoverItem .categoryHoverList ul li a {
+    color: #777777;
+    font: 14px/16px 'Roboto';
+    text-decoration: none;
+}
+.categoriesHoverList .categoryHoverItem .categoryHoverMehr {
+    height: 20px;
+    color: #777777;
+    text-decoration: none;
+    cursor: pointer;
+    font: 14px/20px 'Roboto';
+    border-bottom: 1px solid #e8e8e8;
+    background: url("../arrow.png") no-repeat right center;
+}
+.categoriesHoverList .categoryHoverItem .hoverBlock {
+    display: none;
+    z-index: 1;
+    width: 400%;
+    left: 0;
+    top: 116px;
+    background: #ffffff;
+    padding: 20px 25px 30px;
+    position: absolute;
+    -webkit-box-shadow: 5px -1px 12px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 5px -1px 12px rgba(0, 0, 0, 0.15);
+    box-shadow: 5px -1px 12px rgba(0, 0, 0, 0.15);
+    height: 235px;
+}
+.categoriesHoverList .categoryHoverItem .hoverBlock ul {
+    float: left;
+    width: 100%;
+    max-height: 100%;
+    overflow: auto;
+}
+.categoriesHoverList .categoryHoverItem .hoverBlock ul li {
+    margin-bottom: 6px;
+    float: left;
+    width: 33%;
+    text-decoration: none;
+    color: #777777;
+    font: 14px/16px 'Roboto';
+}
+.categoriesHoverList .categoryHoverItem .hoverBlock ul li a {
+    color: #777777;
+    font: 14px/16px 'Roboto';
+    text-decoration: none;
+}
+.categoriesHoverList .categoryHoverItem .hoverBlock .hoverClose {
+    position: absolute;
+    height: 20px;
+    background: url("../arroow-top.png") no-repeat right 15px center;
+    left: 0;
+    cursor: pointer;
+    bottom: 10px;
+    width: 100%;
+}
+.categoriesHoverList .categoryHoverItem .hoverBlock .hoverClose:after {
+    content: '';
+    width: 94%;
+    background: #e8e8e8;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    height: 1px;
+}
+.categoriesHoverList .categoryHoverItem .hoverImage {
+    -webkit-box-shadow: 5px -3px 3px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 5px -3px 3px rgba(0, 0, 0, 0.15);
+    box-shadow: 5px -3px 3px rgba(0, 0, 0, 0.15);
+    width: 25%;
+    bottom: 100%;
+    height: 116px;
+    background: #ffffff;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+.categoriesHoverList .categoryHoverItem:nth-child(4n+2) .hoverBlock {
+    left: -100%;
+}
+.categoriesHoverList .categoryHoverItem:nth-child(4n+2) .hoverImage {
+    left: 25%;
+}
+.categoriesHoverList .categoryHoverItem:nth-child(4n+3) .hoverBlock {
+    left: -200%;
+}
+.categoriesHoverList .categoryHoverItem:nth-child(4n+3) .hoverImage {
+    left: 50%;
+}
+.categoriesHoverList .categoryHoverItem:nth-child(4n+4) .hoverBlock {
+    left: -300%;
+}
+.categoriesHoverList .categoryHoverItem:nth-child(4n+4) .hoverImage {
+    left: 75%;
+}
+.categoriesHoverList .categoryHoverItem.opened .categoryHoverImage,
+.categoriesHoverList .categoryHoverItem.opened .categoryHoverTitle {
+    z-index: 2;
+}
+.paddingContent {
+    padding: 25px 15px !important;
+}
+.stepTitle {
+    color: #414141;
+    font: 18px 'Roboto';
+    font-weight: bold;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.stepTitle.simpleTitle {
+    font-weight: normal;
+}
+.stepTitle.blueStepTitle {
+    color: #0067d7;
+}
+.stepTextSimple {
+    float: left;
+    width: 100%;
+    color: #414141;
+    font: 14px 'Roboto';
+    text-align: center;
+}
+.stepLink {
+    float: left;
+    width: 100%;
+    color: #0067d7;
+    font: 14px 'Roboto';
+    text-align: center;
+    text-decoration: none;
+}
+.stepsWrapper {
+    float: left;
+    width: 100%;
+    margin: 25px 0 35px;
+}
+.stepsWrapper .stepItem {
+    float: left;
+    width: 20%;
+}
+.stepsWrapper .stepItem .stepImage {
+    float: left;
+    width: 100%;
+    height: 95px;
+    text-align: center;
+}
+.stepsWrapper .stepItem .stepImage .imageWrapper {
+    position: relative;
+    display: inline-block;
+    height: 95px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+.stepsWrapper .stepItem .stepImage .imageWrapper img {
+    opacity: 0;
+}
+.stepsWrapper .stepItem .stepImage .imageWrapper .stepNumber {
+    position: absolute;
+    font: 60px/20px 'Roboto';
+    font-weight: bold;
+    color: #808080;
+    opacity: 0.4;
+    left: -15px;
+    top: 0;
+}
+.stepsWrapper .stepItem .stepText {
+    float: left;
+    width: 100%;
+    font: 16px 'Roboto';
+    color: #808080;
+    text-align: center;
+    margin-top: 20px;
+}
+.stepsWrapper .stepItem:last-child .stepText {
+    text-transform: uppercase;
+}
+.stepsWrapper.stepsFour {
+    padding: 0 50px;
+    margin: 40px 0;
+}
+.stepsWrapper.stepsFour .stepItem {
+    float: left;
+    width: 25%;
+}
+.stepsWrapper.stepsFour .stepItem:last-child .stepText {
+    text-transform: none;
+}
+.stepsWrapper.stepsFour .stepTitle {
+    margin-bottom: 30px;
+}
+.linksBlock {
+    float: left;
+    width: 100%;
+    margin: 20px 0 40px;
+    padding: 30px 0;
+    border: 1px solid #e8e8e8;
+}
+.linksBlock .halfBlock {
+    margin-top: 30px;
+    float: left;
+    width: 50%;
+}
+.linksBlock .halfBlock.textRight {
+    padding-right: 50px;
+}
+.linksBlock .halfBlock.textRight img,
+.linksBlock .halfBlock.textRight span {
+    float: left;
+}
+.linksBlock .halfBlock.textLeft {
+    padding-left: 50px;
+}
+.linksBlock .halfBlock.textLeft img,
+.linksBlock .halfBlock.textLeft span {
+    float: right;
+}
+.linksBlock .halfBlock a {
+    display: inline-block;
+    color: #414141 !important;
+}
+.linksBlock .halfBlock a img,
+.linksBlock .halfBlock a span {
+    margin: 0 10px;
+    color: #414141 !important;
+    text-transform: none !important;
+    font: 14px/46px 'Roboto' !important;
+    height: 46px;
+}
+.imageList {
+    float: left;
+    width: 100%;
+    padding: 30px 0 30px;
+}
+.imageList .imageColumn {
+    width: calc(50% - 135px);
+    float: left;
+}
+.imageList .imageColumn .columnItem {
+    position: relative;
+    float: left;
+    font: 14px 'Roboto';
+    color: #414141;
+}
+.imageList .imageColumn .columnItem img {
+    position: absolute;
+    top: 0;
+}
+.imageList .imageColumn.leftColumn .columnItem {
+    padding: 0 55px 0 5px;
+    text-align: right;
+}
+.imageList .imageColumn.leftColumn .columnItem img {
+    right: 0;
+}
+.imageList .imageColumn.rightColumn .columnItem {
+    padding: 0 5px 0 55px;
+    text-align: left;
+}
+.imageList .imageColumn.rightColumn .columnItem img {
+    left: 0;
+}
+.imageList .imageColumn.centerColumn {
+    width: 270px;
+}
+.imageList .imageColumn.centerColumn img {
+    display: block;
+    margin: 75px auto;
+}
+.greySection {
+    background: #f6f6f6;
+    padding: 30px 0;
+    float: left;
+    width: 100%;
+}
+.greySection .stepTitle {
+    margin-bottom: 10px;
+}
