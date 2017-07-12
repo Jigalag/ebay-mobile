@@ -437,11 +437,29 @@
   .sidebar {
     margin-top: 30px;
   }
+  .preFooterTop {
+    text-align: center;
+  }
   .preFooterTop > div {
     width: 100% !important;
     text-align: center;
     min-height: 0 !important;
     margin: 0 0 40px 0 !important;
+  }
+  .preFooterTop .ausliferung {
+    width: auto !important;
+    float: none;
+    display: inline-block;
+  }
+  .sidebar .deliveryBlock .heading {
+    font-size: 16px;
+    display: block;
+  }
+  .preFooterText {
+    text-align: left !important;
+  }
+  .sidebar .deliveryBlock {
+    padding-left: 55px;
   }
   .navBottom {
     width: 100%;
@@ -451,6 +469,12 @@
     width: 50%;
     text-align: left;
     margin: 0;
+  }
+  .gestiegen span {
+    font: 14px/16px 'Roboto';
+    color: #ffffff;
+    width: 100%;
+    float: left;
   }
   .bottomAddress {
     width: 100%;
