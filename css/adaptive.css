@@ -164,7 +164,30 @@
 .nonScroll {
   overflow: hidden;
 }
+.content {
+  position: relative;
+}
+.filtersWrapper {
+  position: absolute;
+  top: 0;
+  right: 100%;
+  width: 261px;
+  margin: 0 12px 0 0;
+}
+.sidebar {
+  padding-top: 423px;
+}
 @media screen and (max-width: 1024px) {
+  .filtersWrapper {
+    position: relative;
+    top: 0;
+    right: auto;
+    width: 100%;
+    margin: 0;
+  }
+  .sidebar {
+    padding-top: 0;
+  }
   .wrapper {
     width: 100%;
   }
